@@ -1,0 +1,8 @@
+version: '3'
+
+services:
+  rest_app1:
+    image: 'rest_app:1.0'
+    build: ./
+    ports:
+      - '8000:8080'
